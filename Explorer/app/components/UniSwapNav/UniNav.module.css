@@ -1,0 +1,35 @@
+.nav {
+  border-bottom: 1px solid rgb(171, 171, 171);
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+}
+.title {
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 2rem;
+  cursor: pointer;
+  box-shadow: 0.1px 0.1px 2px -0.1px rgb(159, 159, 159);
+}
+.title img {
+  width: 13rem;
+}
+.waxBtn {
+  background-color: black;
+  margin: 0 2rem;
+  padding: 0 2rem;
+  border-right: 1px solid rgb(255, 255, 255);
+}
+
+.wx {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  color: whitesmoke;
+  gap: 1rem;
+}
+.logo {
+  width: 2.5rem;
+  border-radius: 50%;
+}

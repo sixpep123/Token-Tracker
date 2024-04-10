@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.data {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* width: 60%; */
+}
+
+.data table {
+  position: relative;
+  border-collapse: collapse;
+  background-color: white;
+  text-align: left;
+  width: 100%;
+  border-radius: 20px;
+}
+.data select {
+  height: 2.5rem;
+  outline: none;
+  border-radius: 20px;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+  border: none;
+}
+
+.countDrop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.countDrop select {
+  color: #0099aa;
+  background-color: #ffffff;
+  padding: 0.5rem;
+}
+
+.data tr {
+  box-shadow: 0px 1px 1px -1px grey;
+}
+
+.data td,
+.data th {
+  padding: 1rem;
+}
+
+.data thead {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  background-color: #79acb2;
+}
+.data thead tr {
+  width: 100%;
+  align-items: center;
+}
+
+.data tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.splRow {
+  color: #0076c5;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.filter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.filter select,
+.filter input,
+.filter option {
+  height: 2.5rem;
+  width: 12rem;
+  border: 1px solid #a0a0a0;
+  border-radius: 5px;
+  padding: 0px 10px;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+.filter option {
+  margin: 2rem;
+  padding-bottom: 100px;
+  border-radius: 20px;
+}
+
+.data label {
+  font-weight: 700;
+}
+
+.desc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 1px solid rgb(176, 176, 176);
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+}
+
+.name {
+  color: red;
+  display: inline;
+}
